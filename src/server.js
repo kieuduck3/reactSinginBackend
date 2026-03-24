@@ -1,4 +1,5 @@
-require("dotenv").config();
+require("./config/env");
+// require("dotenv").config();
 const express = require("express"); //commonjs
 const configViewEngine = require("./config/viewEngine");
 const apiRoutes = require("./routes/api");
